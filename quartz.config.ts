@@ -8,16 +8,14 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
-    pageTitleSuffix: "",
+    pageTitle: "AI 決策指南",
+    pageTitleSuffix: " | AI Decision Guide",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    analytics: null,
+    locale: "zh-TW",
+    baseUrl: "xuancheng307.github.io/ai-decision-guide-site",
+    ignorePatterns: ["private", "templates", ".obsidian", "SCRIPTS", "TEMPLATES"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
